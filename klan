@@ -1,4 +1,4 @@
-#INSTALLING NEEDS
+
 apt-get install nodejs -y && apt-get update -y && apt install git -y
 function need2() {
 # Installing need2
@@ -19,7 +19,7 @@ cd KARMA-DDoS
 }
 gitclone
 
-function need3() {
+function pysetup() {
 # Installing pysetup
 python3 setup.py
 }
