@@ -1,0 +1,30 @@
+#INSTALLING NEEDS
+apt-get install nodejs -y && apt-get update -y && apt install git -y
+function need2() {
+# Installing needs2
+apt -y update && apt -y install curl wget libcurl4 libssl-dev python3 python3-pip make cmake automake autoconf m4 build-essential ruby perl golang git  
+}
+needs2
+
+function need3() {
+# Installing needs3
+apt -y update && apt -y install curl wget libcurl4 libssl-dev python3 python3-pip make cmake automake autoconf m4 build-essential ruby perl golang git  
+}
+needs3
+
+
+function gitclone() {
+git clone https://github.com/HyukIsBack/KARMA-DDoS.git
+cd KARMA-DDoS
+}
+gitclone
+
+function need3() {
+# Installing pysetup
+python3 setup.py
+}
+pysetup
+
+1
+2
+
